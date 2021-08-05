@@ -11,7 +11,7 @@
     "packages/next"
   ],
   "scripts": {
-    "start": "cd packages/expo && yarn start:dev-client",
+    "start": "cd packages/expo && yarn start:expo",
     "dev": "cd packages/next && yarn dev",
     "build": "cd packages/next && yarn build",
     "deploy": "vercel --prod --no-clipboard",

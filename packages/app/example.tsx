@@ -1,3 +1,5 @@
+// From https://gist.github.com/gorhom/9cd6155e8469c61d2ae9a815fcc83d2e
+
 import React, { useCallback, useRef, useMemo, useState } from 'react';
 import BottomSheet, { BottomSheetFlatList } from '@gorhom/bottom-sheet';
 import { Alert, Modal, StyleSheet, Text, Pressable, View } from 'react-native';
@@ -75,7 +77,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 22,
     backgroundColor: '#eee'
   },
   contentContainer: {

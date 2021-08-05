@@ -9,8 +9,8 @@ enableScreens(true);
 
 export default function App() {
   return (
-    <SafeAreaProvider style={{ backgroundColor: 'black' }}>
-      <StatusBar style="light" />
+    <SafeAreaProvider>
+      <StatusBar style="dark" backgroundColor="#eee" />
       <Example />
     </SafeAreaProvider>
   );
